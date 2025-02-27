@@ -21,13 +21,30 @@
 }
 
 .logo {
-  font-size: 25px;
+  /* font-size: 25px;
   color: #fff;
   text-decoration: none;
   font-weight: 700;
-  cursor: default;
+  /* cursor: default; */
+  max-width: 1%;
+  height: auto;
+  padding-top: px;
+  display: inline;
+  flex-direction: row;
+  aspect-ratio: 1/1;
 }
 
+.logo img {
+  height: 100px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  margin-right: 5px;
+}
+
+.logo:hover {
+  color: aliceblue;
+}
 .navbar a {
   font-size: 18px;
   color: aliceblue;
@@ -171,7 +188,7 @@
   font-size: 2rem;
 }
 
-#skills {
+/* #skills {
   text-align: center;
   padding: 10px 10px;
   background: #f4f4f4;
@@ -202,4 +219,72 @@
 .skill i {
   font-size: 24px;
   color: #4caf50;
+} */
+
+.body {
+  height: 45dvh;
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+  background-color: #20242d;
+  color: white;
+  text-align: center;
+}
+
+.skills-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.skill {
+  background: #2796c7;
+  padding: 15px;
+  border-radius: 10px;
+  width: 160px;
+  text-align: center;
+}
+.skill img {
+  width: 50px;
+  height: 50px;
+}
+.skill p {
+  margin-top: 10px;
+  font-size: 25px;
+}
+
+.project {
+  height: 45dvh;
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+  background-color: #2796c7;
+  color: white;
+  text-align: center;
+}
+
+.grid-container {
+  height: 45dvh;
+  display: grid;
+  grid-row: auto;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.contact {
+  height: 45dvh;
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+  background-color: #323846;
+  color: white;
+  text-align: center;
+}
+
+footer {
+  height: 45dvh;
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+  background-color: #96969c;
+  color: white;
+  text-align: center;
 }
