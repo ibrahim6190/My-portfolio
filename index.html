@@ -2,242 +2,161 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="./css/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="css/style.css" />
     <link
-      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
       rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
     />
   </head>
   <body>
-    <div class="container">
-      <header class="header">
-        <a href="#" class="logo"><img src="./img/my logo.png" alt="" /></a>
+    <header class="header">
+      <div class="logo">
+        <img src="img/my logo.png" alt="Logo" />
+      </div>
+      <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
 
-        <nav class="navbar">
-          <a href="#" class="active">Home</a>
-          <a href="#">About</a>
-          <a href="#">Skills</a>
-          <a href="#">Portfolio</a>
-          <a href="#">Experience</a>
-          <a href="#">Contact</a>
-        </nav>
-      </header>
+    <section id="home" class="home">
+      <div class="content">
+        <h3>Hello, I'm <span>Abdulai Ibrahim</span></h3>
+        <h1>Web Developer & Designer</h1>
+        <p>
+          Creating beautiful and functional websites with modern technologies.
+        </p>
+        <a href="#contact" class="btn">Get in Touch</a>
+        <a href="img/Abdulai Ibrahim CV.pdf" class="btn">Download CV</a>
+      </div>
+      <div class="home-image">
+        <img src="img/home.png" alt="Profile Picture" />
+      </div>
+    </section>
 
-      <section class="home">
-        <div class="content">
-          <h3>Hello, You're Welcome</h3>
-          <h1>Abdulai Ibrahim</h1>
-          <h3>And I'm a <span>Web Developer</span></h3>
-          <p>
-            I am a motivated junior web developer with a strong foundation in
-            HTML and CSS, actively learning JavaScript and other programming
-            languages. Passionate about security measures to protect user data,
-            I am seeking a role that offers opportunities to contribute my
-            skills, collaborate with a team, and continue learning on the job.
-          </p>
-          <div class="social-media">
-            <a href="#"><i class="bx bxl-twitter"></i></a>
-            <a href="#"><i class="bx bxl-facebook"></i></a>
-            <a href="https://www.linkedin.com/in/ibrahim-abdulai-ba28462b3"
-              ><i class="bx bxl-linkedin"></i
-            ></a>
-            <a href="0200762101"><i class="bx bxl-whatsapp"></i></a>
-          </div>
-          <button>
-            <a href="./img/Abdulai Ibrahim CV.pdf"> Download CV </a>
-          </button>
-        </div>
-        <div class="home-image">
-          <img src="img/home.png" alt="user" />
-        </div>
-      </section>
-
-      <section class="about-container" id="about">
+    <section id="about" class="about">
+      <h2>About Me</h2>
+      <div class="about-container">
         <div class="about-pic">
-          <img src="img/about.jpg" alt="Picture of Ibrahim" />
+          <img src="img/about.jpg" alt="About Me" />
         </div>
-
         <div class="about-content">
-          <h3>About Me</h3>
           <p>
-            <span id="hello">Hello World!</span> I'm Abdulai Ibrahim, a Junior
-            Web Developer based out of the Accra Ghana. As a laboratory
-            technologist, I've always enjoyed problem-solving, including proofs
-            which the rest of my class hated! I am glad to have discovered that
-            programming challenges my brain while simultaneously allowing me to
-            show my creative side. I am excited to progress my career by taking
-            on a Junior Web Developer position.
+            Passionate web developer with experience in building responsive and
+            user-friendly websites. Skilled in HTML, CSS, JavaScript, and modern
+            frameworks.
           </p>
-        </div>
-      </section>
-
-      <div class="body">
-        <h2>My Skills</h2>
-        <div class="skills-container">
-          <div class="skill">
-            <img src="img/html.png" alt="HTML" />
-            <p>HTML5</p>
-          </div>
-          <div class="skill">
-            <img src="img/css.png" alt="CSS" />
-            <p>CSS</p>
-          </div>
-          <div class="skill">
-            <img src="img/js.png" alt="JavaScript" />
-            <p>JavaScript</p>
-          </div>
-          <div class="skill">
-            <img src="img/responsive.png" alt="resp" />
-            <p>Responsive Design</p>
-          </div>
-          <div class="skill">
-            <img src="img/c-creator.png" alt="creator" />
-            <p>Content Creator</p>
-          </div>
         </div>
       </div>
+    </section>
 
-      <section id="experience">
-        <h2>Experience</h2>
-
-        <div class="experience-item">
-          <h3>Lab Technologist</h3>
-          <p>
-            Trained in laboratory science with hands-on experience in research,
-            analysis, and diagnostics. Skilled in laboratory techniques and
-            procedures to ensure accuracy and efficiency.
-          </p>
+    <section id="skills" class="skills">
+      <h2>Skills</h2>
+      <div class="skills-container">
+        <div class="skill">
+          <img src="img/html.png" alt="HTML5" />
+          <p>HTML5</p>
         </div>
-
-        <div class="experience-item">
-          <h3>Science Teacher</h3>
-          <p>
-            Passionate about education, I simplify complex scientific concepts
-            to make learning engaging and accessible for students.
-          </p>
+        <div class="skill">
+          <img src="img/css.png" alt="CSS3" />
+          <p>CSS3</p>
         </div>
-
-        <div class="experience-item">
-          <h3>Mobile Video Editing Trainer</h3>
-          <p>
-            Experienced in training individuals on mobile video editing, helping
-            them create high-quality digital content using professional
-            techniques.
-          </p>
+        <div class="skill">
+          <img src="img/js.png" alt="JavaScript" />
+          <p>JavaScript</p>
         </div>
-
-        <div class="experience-item">
-          <h3>Web Development (In Progress)</h3>
-          <p>
-            Currently learning
-            <strong>web development with MEST Africa</strong>, focusing on
-            <strong
-              >HTML, CSS, JavaScript, Node Js, Express JS and MongoDB</strong
-            >
-            to build interactive and functional websites.
-          </p>
+        <div class="skill">
+          <img src="img/responsive.png" alt="responsiveness" />
+          <p>Responsive Design</p>
         </div>
-      </section>
-
-      <!-- <section class="project">
-        <div>
-          <h3>Latest <span>Projects</span></h3>
-          <div class="grid-container">
-            <div>
-              <img src="img/1.png" alt="img1" />
-              <p>My Portfolio project</p>
-            </div>
-            <div>
-              <img src="img/2.png" alt="img2" />
-              <p>My To-do APP</p>
-            </div>
-            <div>
-              <img src="img/3.png" alt="img3" />
-              <p>Herbal Product Site</p>
-            </div>
-            <div>
-              <img src="img/4.png" alt="img4" />
-              <p>Nature Website</p>
-            </div>
-            <!-- <img src="img/10.jpg" alt="img5" /> -->
-      <!-- <img src="img/11.jpg" alt="img6" /> -->
-      <!-- </div>
+        <div class="skill">
+          <img src="img/node.png" alt="Node.js" />
+          <p>Node.js</p>
         </div>
-      </section> -->
-
-      <section class="body">
-        <h2>Latest <span style="color: rgb(18, 209, 184)">Projects</span></h2>
-
-        <div class="projects-container">
-          <div class="project">
-            <h4>My Portfolio</h4>
-            <img src="img/1.png" alt="Project 1" />
-          </div>
-          <div class="project">
-             <h4>To-do App</h4>
-            <img src="img/2.png" alt="Project 2" />
-          </div>
-          <div class="project">
-            <img src="img/3.png" alt="Project 3" />
-          </div>
-          <div class="project">
-            <img src="img/4.png" alt="Project 4" />
-          </div>
-        </div>
-      </section>
-
-      <!-- <section class="contact"> -->
-      <!-- <h3>Contact <span>Me</span></h3> -->
-      <!-- </section> -->
-
-      <div class="connect">
-        <div>
-          <div class="contact-info">
-            <h3>Get in Touch</h3>
-
-            <div class="contact-item">
-              <div class="contact-icon"></div>
-
-              <div>
-                <h4>📧Email</h4>
-
-                <p>ibrah.webdev@gmail.com</p>
-              </div>
-            </div>
-
-            <div class="contact-item">
-              <div class="contact-icon">
-                <h4>📱Phone</h4>
-                <p>+233 (0) 24321-9771</p>
-              </div>
-            </div>
-
-            <div class="contact-item">
-              <div class="contact-icon">
-                <h4>📍Location</h4>
-                <p>Accra, Ghana</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="contact-form">
-          <h2>Contact Me</h2>
-          <form>
-            <input type="text" placeholder="Your Name" required />
-            <input type="email" placeholder="Your Email" required />
-            <textarea placeholder="Your Message" required></textarea>
-            <button type="submit">Send Message</button>
-          </form>
+        <div class="skill">
+          <img src="img/c-creator.png" alt="c" />
+          <p>Content Creator</p>
         </div>
       </div>
+    </section>
 
-      <footer><h2>© 2025 | Abdulai Ibrahim | All Rights Reserved .</h2></footer>
-    </div>
+    <section id="projects" class="projects">
+      <h2>Projects</h2>
+      <div class="projects-container">
+        <div class="project">
+          <img src="img/1.png" alt="Project 1" />
+          <h3>Project One</h3>
+          <p>A portfolio website showcasing creative design and my skills</p>
+        </div>
+        <div class="project">
+          <a href="https://todo-app-nine-beryl-81.vercel.app/"
+            ><img src="img/2.png" alt="Project 2"
+          /></a>
+          <h3>Project Two</h3>
+          <p>
+            A simple Todo APP to input you daily tasks. click on the picture to
+            view
+          </p>
+        </div>
+        <div class="project">
+          <a href="https://herbal-medicine-website.vercel.app/"
+            ><img src="img/Hmd pic.png" alt="Project 3"
+          /></a>
+          <h3>Project Three</h3>
+          <p>
+            A Herbal product website showcasing herbal medicines and their
+            health benefits. Click on the picture to view.
+          </p>
+        </div>
+        <div class="project">
+          <img src="img/3.png" alt="Project 4" />
+          <h3>Project Four</h3>
+          <p>A blog platform with .</p>
+        </div>
+        <div class="project">
+          <img src="projects/project3.jpg" alt="Project 5" />
+          <h3>Project Five</h3>
+          <p>A project platform with user .</p>
+        </div>
+        <div class="project">
+          <img src="projects/project3.jpg" alt="Project 6" />
+          <h3>Project six</h3>
+          <p>A for everyone to learn.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>Contact Me</h2>
+      <div class="contact-container">
+        <form class="contact-form" action="#" method="post">
+          <input type="text" name="name" placeholder="Your Name" required />
+          <input type="email" name="email" placeholder="Your Email" required />
+          <textarea
+            name="message"
+            placeholder="Your Message"
+            required
+          ></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+        <div class="contact-info">
+          <p>Email: ibrah.webdev@gmail.com</p>
+          <p>Phone: +233 2432 19771</p>
+          <p>Location: Accra, Ghana</p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>© 2025 Abdulai Ibrahim. All rights reserved.</p>
+    </footer>
+    <button id="backToTopBtn" title="Back to top">&#8679;</button>
+
+    <script src="index.js"></script>
   </body>
 </html>
